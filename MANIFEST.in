@@ -1,0 +1,5 @@
+recursive-include py_config_env *.py
+include setup.py
+include requirements.txt
+include LICENSE.txt
+include README.md
