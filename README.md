@@ -16,8 +16,11 @@ extension reads a configuration file containing variables in Python, to then acc
 dictionary.
 
 ## How to use the extension
+- Create a folder called `environments` in the root of your project. You can also create sub-folders inside, in this case the `env_path` value needs to indicate the subfolder to access
 
-Include the extension library and initialize a variable with the class ``EnvironmentLoader`. Check at this example.
+- Create the files `example_1.py`, `example_2.py` and `example_3.py` inside this folder (view `environments/` folder for some examples)
+
+- Include the extension library and initialize a variable with the class `EnvironmentLoader`. Check at this example.
 
 `test_env.py`
 
